@@ -74,11 +74,6 @@ public class XorArray : Array
         }
     }
 }
-
-class Program
-{
-    static void Main(string[] args)
-    {
         // Демонстрация работы SortArray
         Console.WriteLine("SortArray демонстрация:");
         var sortArr1 = new SortArray(new int[] { 5, 3, 1 });
@@ -114,5 +109,3 @@ class Program
         sumXor.ForEach();
         Console.Write("После вычисления корней: ");
         sumXor.Print();
-    }
-}
